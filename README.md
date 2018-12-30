@@ -43,7 +43,7 @@ exec('rm -rf /', (err) => {
 ```javascript
 require('js-safe');
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/";
+var uri = "mongodb://admin:12345678@ds023423.mlab.com:56789";
 
 MongoClient.connect(url, function(err, db) {
   if (err) throw err;
