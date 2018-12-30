@@ -58,6 +58,9 @@ MongoClient.connect(url, function(err, db) {
 
 Notice how JS Safe removes the need for error handling!
 
+# Attribution
+The security architecture behind JS Safe was first theorized by [twisted-pear](https://github.com/twisted-pear) and brought to Node.js by [affinespaces](https://github.com/affinespaces).
+
 # LICENSE
 
 GPLv3 https://www.gnu.org/licenses/gpl-3.0.en.html
