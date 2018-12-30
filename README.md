@@ -1,4 +1,4 @@
-## JS Safe 
+# JS Safe 
 
 JS Safe is a blazing-fast Node.js security framework. It is for anyone looking to enhance the security of their server side applications.
 
