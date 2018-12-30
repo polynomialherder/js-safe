@@ -1,12 +1,16 @@
 ## JS Safe 
 
-JS Safe is a blazing-fast Node.js module for anyone looking to enhance the security of their server side applications. 
+JS Safe is a blazing-fast Node.js security framework. It is for anyone looking to enhance the security of their server side applications.
 
 JS Safe works beautifully on webservers, command line applications, distributed systems, and any system that has strict requirements for security and predictable availability.
 
 ## Getting Started 
 
-Simply add `require('js-safe')` to the very first line of your application's point of entry, and your code will automatically be safeguarded against insecure states. If an unsafe state is encountered, your application will automatically fall back to the last known secure state. 
+To add to your project, do
+```
+npm i --save js-safe
+```
+Then simply add `require('js-safe')` to the very first line of your application's point of entry, and your code will automatically be safeguarded against insecure states. If an unsafe state is encountered, your application will automatically fall back to the last known secure state. 
 
 As a bonus, it will even secure your dependencies. 
 
